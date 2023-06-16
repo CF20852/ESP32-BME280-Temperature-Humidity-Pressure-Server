@@ -1,6 +1,11 @@
 # ESP32-BME280-Temperature-Humidity-Pressure-Server
 This web server was prototyped on an Adafruit ESP32 Feather V2 with a Sparkfun BME280, using the Arduino Version 2.1.0 IDE.  The ESP32 board is connected to the BME280 using an I2C interface.  The BME280 is at address 0x77.
 
+Some features of this software:
+@ensp;There are two web pages:
+@ensp;@ensp;The page at <ip address>/current gives you the current temperature (\u2109), relative humidity (%), dew point (\u2109), and barometric pressure (hPa) readings.</br>
+@ensp;@ensp;The page at <ip address>/ gives you a plot of the temperature, relative humidity, dew point, and pressure for up to the past three days.</br>
+
 The following Arduino libraries are required:<br>
 &ensp;Arduinojson by Benoit Blanchon (v. 6.21.2 was used)<br>
 &ensp;ESP32AsyncWebSrv by dvarrel (v. 1.2.6 was used)<br>
