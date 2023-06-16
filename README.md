@@ -2,7 +2,7 @@
 This web server was prototyped on an Adafruit ESP32 Feather V2 with a Sparkfun BME280, using the Arduino Version 2.1.0 IDE.  The ESP32 board is connected to the BME280 using an I2C interface.  The BME280 is at address 0x77.
 
 The following Arduino libraries are required:<br>
-    Arduinojson by Benoit Blanchon (v. 6.21.2 was used)<br>
+<t>Arduinojson by Benoit Blanchon (v. 6.21.2 was used)<br>
     ESP32AsyncWebSrv by dvarrel (v. 1.2.6 was used)<br>
     ESPAsyncTCP by dvarrel (v. 1.2.4 was used)<br>
     SparkFun BME280 by SparkFun Electronics (v. 2.0.9 was used)<br>
