@@ -3,8 +3,8 @@ This web server was prototyped on an Adafruit ESP32 Feather V2 with a Sparkfun B
 
 Some features of this software:
 @ensp;There are two web pages:<br>
-@ensp;@ensp;The page at <ip address>/current gives you the current temperature (deg. F), relative humidity (%), dew point (deg. F), and barometric pressure (hPa) readings.</br>
-@ensp;@ensp;The page at <ip address>/ gives you a plot of the temperature, relative humidity, dew point, and pressure for up to the past three days.</br>
+&emsp;The page at <ip address>/current gives you the current temperature (&#8457), relative humidity (%), dew point (&#8457), and barometric pressure (hPa) readings.</br>
+&emsp;The page at <ip address>/ gives you a plot of the temperature, relative humidity, dew point, and pressure for up to the past three days.</br>
 
 The following Arduino libraries are required:<br>
 &ensp;Arduinojson by Benoit Blanchon (v. 6.21.2 was used)<br>
