@@ -267,7 +267,7 @@ void sendCurrentReadings(AsyncWebServerRequest *request) {
   press = mySensorA.readFloatPressure() / 100.0;
 
   // Create a plain text response with current readings
-  String response = ("1348 Winfield Circle Garage Atmospheric Conditions<br>");
+  String response = ("Current Atmospheric Conditions<br>");
   response += "Temperature: " + String(tempF) + " &#8457<br>";
   response += "Humidity: " + String(relHum) + " %<br>";
   response += "Dew Point: " + String(dewPt) + " &#8457<br>";
