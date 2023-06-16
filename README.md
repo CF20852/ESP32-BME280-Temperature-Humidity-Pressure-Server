@@ -7,7 +7,6 @@ Some features of this software:
 &emsp;The page at <ip address>/ (root) gives you a plot of the temperature, relative humidity, dew point, and pressure for up to the past three days.</br></br><br>
 &ensp;The server uses Unix time (seconds since midnight January 1, 1970).  It sets its clock over the web (using NTP servers) when it starts up, and every three days plus a random number of seconds up to about four hours thereafter.<br><br>
 &ensp;The server uses chunked data transmission to transfer data to the client in JSON format.  Using chunked transmission means we don't have to store the entire JSON response, which can be up to 1440 samples of five parameters per sample.<br><br>
-
 The following Arduino libraries are required:<br>
 &ensp;Arduinojson by Benoit Blanchon (v. 6.21.2 was used)<br>
 &ensp;ESP32AsyncWebSrv by dvarrel (v. 1.2.6 was used)<br>
