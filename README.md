@@ -1,5 +1,5 @@
 # ESP32-BME280-Temperature-Humidity-Pressure-Server
-This web server was prototyped on an Adafruit ESP32 Feather V2 with a Sparkfun BME280, using the Arduino Version 2.1.0 IDE.  The ESP32 board is connected to the BME280 using an I2C interface.  The BME280 is at address 0x77.
+This web server was prototyped on an Adafruit ESP32 Feather V2 with a SparkFun Atmospheric Sensor Breakout - BME280 (Qwiic), using the Arduino Version 2.1.0 IDE.  The ESP32 board is connected to the BME280 using an I2C interface.  The BME280 is at address 0x77.
 
 Some features of this software:<br>
 There are two web pages:<br>
