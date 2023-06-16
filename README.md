@@ -3,8 +3,8 @@ This web server was prototyped on an Adafruit ESP32 Feather V2 with a Sparkfun B
 
 Some features of this software:
 @ensp;There are two web pages:<br>
-&emsp;The page at <ip address>/current gives you the current temperature (deg. F), relative humidity (%), dew point (deg. F), and barometric pressure (hPa) readings.</br>
-&emsp;The page at <ip address>/ (root) gives you a plot of the temperature, relative humidity, dew point, and pressure for up to the past three days.</br></br><br>
+&emsp;The page at <ip address>/current gives you the current temperature (deg. F), relative humidity (%), dew point (deg. F), and barometric pressure (hPa) readings.<br>
+&emsp;The page at <ip address>/ (root) gives you a plot of the temperature, relative humidity, dew point, and pressure for up to the past three days.<br><br>
 &ensp;The server uses Unix time (seconds since midnight January 1, 1970).  It sets its clock over the web (using NTP servers) when it starts up, and every three days plus a random number of seconds up to about four hours thereafter.<br><br>
 &ensp;The server uses chunked data transmission to transfer data to the client in JSON format.  Using chunked transmission means we don't have to store the entire JSON response, which can be up to 1440 samples of five parameters per sample.<br><br>
 The following Arduino libraries are required:<br>
