@@ -2,7 +2,8 @@
 This web server was prototyped on an Adafruit ESP32 Feather V2 with a SparkFun Atmospheric Sensor Breakout - BME280 (Qwiic), using the Arduino Version 2.1.0 IDE.  The ESP32 board is connected to the BME280 using an I2C interface.  The BME280 is at address 0x77.
 
 <h3>Some features of this software:<br></h3>
-There are two web pages:<br>
+There are two web pages:
+
 * The page at <ip address>/current gives you the current temperature (deg. F), relative humidity (%), dew point (deg. F), and barometric pressure (hPa) readings.<br><br>
 * The page at <ip address>/ (root) gives you a plot of the temperature, relative humidity, dew point, and pressure for up to the past three days.<br><p>
 
@@ -12,6 +13,7 @@ Other features:<br>
 * The server uses chunked data transmission to transfer data to the client in JSON format.  Using chunked transmission means we don't have to store the entire JSON response, which can be up to 1440 samples of five parameters per sample.<br><p>
 
 <h3>Libraries:</h3>
+
 The following Arduino libraries are required:<p>
 * Arduinojson by Benoit Blanchon (v. 6.21.2 was used)<br>
 * ESP32AsyncWebSrv by dvarrel (v. 1.2.6 was used)<br>
